@@ -73,7 +73,7 @@ button.cancel {
 
 .top-line {
   display: flex;
-  margin: 10px;
+  margin: 5px;
 }
 
 .close-button {
@@ -88,4 +88,9 @@ button.cancel {
 
 button {
   margin: 5px;
+}
+
+.header {
+  display: flex;
+  align-self: center;
 }
