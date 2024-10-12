@@ -41,6 +41,11 @@ ul {
   list-style-type: none;
 }
 
+li {
+  margin: 7px;
+  margin-right: 14px;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -61,3 +66,23 @@ a {
   display: flex;
   justify-content: space-between;
 } 
+
+.footer {
+  background-color: lightgray;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+
+.search-container, .button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* .content-wrapper {
+  align-content: center;
+} */
