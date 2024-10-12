@@ -34,17 +34,29 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  margin: 12px;
+  height: 150px;
+  width: 200px;
+  font-size: small;
 }
 
 .content-and-sidebar-container {
   display: flex;
+  /* flex: 1; */
 }
 
 .cards {
   display: flex;
-  /* flex-flow: wrap; */
-  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  /* flex-direction: column; */
+  /* flex-flow: row wrap; */
+  flex-wrap: wrap;
 }
+
+/* .spacer {
+  display: flex;
+  flex: 1;
+} */
 
 .footer {
   text-align: center;
