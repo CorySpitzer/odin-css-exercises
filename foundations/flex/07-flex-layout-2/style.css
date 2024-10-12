@@ -40,6 +40,18 @@ body {
   display: flex;
 }
 
+.cards {
+  display: flex;
+  /* flex-flow: wrap; */
+  /* flex-wrap: wrap; */
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 16px;
+}
+
 ul {
   list-style-type: none;
 }
